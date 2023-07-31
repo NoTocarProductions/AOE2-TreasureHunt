@@ -1,0 +1,27 @@
+to do:
+
+- create functionality for vertical travel through top<-->down (done)
+
+- pick up treasures (done)
+
+- create a new img and pop up when enemy gets player (done)
+
+- create a scoreboard that auto updates (busy)
+	--> implement score function (done)
+	--> implement lives function (done)
+	--> implement highscores (cookies?) (done with localstorage)
+	--> create a span and innerhtml for the highscore (done)
+	--> implement score mechanic, lives lost, you lose points (done)
+
+- bug that when at 1 or -1 locDIFF there actually is collision --> fix, but
+implement the change with task below --> can actually fix this by altering the case switch function 
+
+- complete mvc structure (PRIORITY)
+
+- alert message, press space to begin(done)
+
+- implement reset button to restart the game 
+
+- push projects to GITHUB
+
+https://dev.to/walternascimentobarroso/creating-a-timer-with-javascript-8b7

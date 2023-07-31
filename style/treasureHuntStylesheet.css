@@ -1,0 +1,119 @@
+
+
+body {
+	background-color: black;
+}
+
+div#board {
+	position: relative;
+	max-width: 1300px;
+	height: 863px;
+	margin: auto;
+	background: url("board.jpg");
+	background-repeat: no-repeat;
+    background-color: green;
+    display: grid;
+    grid-template-areas: 
+    "one";
+}
+
+div#scoreboard {
+	position: fixed;
+	top: 40px;
+	left: 10px;
+	width: 120px;
+	height: 250px;
+	background-color: black;
+	padding: 10px;
+	border: 1px solid red;
+	border-radius: 20px;
+	color: white;
+	opacity: 0.6;
+}
+
+h3 {
+	text-align: center;
+	border: 2px dotted green;
+	padding: 0;
+	margin: 5px 0;
+}
+
+span {
+	font-size: large;
+	font-weight: bold;
+	margin-left: 1px;
+}
+
+span#seconds, span#milliseconds {
+	margin-left: 1px;
+}
+
+
+
+ul {
+	text-align: left;
+	list-style: none;
+	padding-left: 5px;
+	border: 2px dotted green;
+	border-radius: 10px;
+}
+
+li {
+	padding-top: 10px;
+}
+
+.table {
+	position: absolute;
+	top: 30px;
+	border-spacing: 0px;
+    height: 800px;
+    width: 1000px;
+    left: 150px;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+    /* border: 1px solid white; */
+	background-image: url('img/grass.jpg');
+	z-index: 1;
+}
+
+td.grass {
+	background-image: url('img/grass.jpg');
+}
+
+td.wall {
+	background-image: url('img/Small_Wall.jpg');
+	z-index: 2;
+
+}
+
+td.treasure {
+	background-image: url('img/ovr1.jpg');
+}
+
+td.player {
+	background-image: url('img/Screenshot\ 2023-06-12\ 150555.jpg');
+	
+}
+
+td.enemy {
+	background-image: url('img/1unpmfwmve451.jpg');
+	
+
+}
+
+td.pickUpTreasure {
+	background-image: url('img/imageedit_6_6976558916.gif');
+}
+
+td.dead {
+	background-image: url('img/youlose.jpg');
+}
+
+img {
+	margin-left: 5px;
+	margin-bottom: 30px;
+	
+}
